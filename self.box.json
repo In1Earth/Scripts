@@ -4,8 +4,7 @@
     "author": "@shaolin-kongfu",
     "icon": "https://avatars.githubusercontent.com/u/87315404?s=400&v=4",
     "repo": "https://github.com/shaolin-kongfu/js_scripts",
-    "apps": [
-      {
+    "apps": [{
       "id": "jckd",
       "name": "晶彩看点",
       "keys": [
@@ -16,7 +15,44 @@
 		"qdbody",
 		"jcboxbody",
 		"jc_withdraw",
-		"jc_cash"],		
+		"jc_cash",
+		
+		"lookStartbody2",
+        "jc_cookie2",
+		"wzbody2",
+		"jc_timebody2",
+		"qdbody2",
+		"jcboxbody2",
+		"jc_withdraw2",
+		"jc_cash2",
+		
+		"lookStartbody3",
+        "jc_cookie3",
+		"wzbody3",
+		"jc_timebody3",
+		"qdbody3",
+		"jcboxbody3",
+		"jc_withdraw3",
+		"jc_cash3",
+		
+		"lookStartbody4",
+        "jc_cookie4",
+		"wzbody4",
+		"jc_timebody4",
+		"qdbody4",
+		"jcboxbody4",
+		"jc_withdraw4",
+		"jc_cash4",
+		
+		"lookStartbody5",
+        "jc_cookie5",
+		"wzbody5",
+		"jc_timebody5",
+		"qdbody5",
+		"jcboxbody5",
+		"jc_withdraw5",
+		"jc_cash5"],	
+		
       "settings": [{
           "id": "jc_cash", 
           "val": "0.3", 
