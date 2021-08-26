@@ -1,0 +1,70 @@
+{
+    "id": "Self.app.sub",
+    "name": "Self 应用订阅",
+    "author": "@shaolin-kongfu",
+    "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "apps": [
+      {
+      "id": "jcKkz",
+      "name": "晶彩看看赚",
+      "keys": [
+        "lookStartbody",
+        "jc_cookie",
+		"wzbody",
+		"jc_timebody",
+		"qdbody",
+		"jcboxbody",
+		"jc_withdraw",
+		"jc_cash"],		
+      "settings": [{
+          "id": "jc_cash", 
+          "val": "0.3", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额需和获取提现请求保持一致", 
+          "items": [{
+              "key": "0.3", 
+              "label": "0.3元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+			}]
+	     }],
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jckkz.js",  
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js", 
+       
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"  
+      ]
+    },
+    {
+      "id": "jsz",
+      "name": "金银手指阅读",
+      "keys": 
+        ["jszhd","jszhd2","jszhd3","jszhd4","jszhd5"],
+      "settings": [{
+                        "id": "jszstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
+                    }, {
+                        "id": "jszcount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }],
+  
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jsz.js", 
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js", 
+      "icons": [ 
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg"
+      ]
+    }
+   ]
+}
