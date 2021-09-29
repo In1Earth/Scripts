@@ -101,6 +101,32 @@
         "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
         "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg"
       ]
+    },
+    {
+      "id": "10sread",
+      "name": "10s阅读",
+      "keys": 
+        ["read10sck","read10sck2","read10sck3","read10sck4","read10sck5"],
+      "settings": [{
+                        "id": "10sreadstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
+                    }, {
+                        "id": "10sreadcount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }],
+  
+      "repo": "https://github.com/Wenmoux/monster.git", 
+      "script": "https://raw.githubusercontent.com/Wenmoux/monster/main/10sread/jrkuaixun.js", 
+      "icons": [ 
+        "",
+        ""
+      ]
     }
    ]
 }
