@@ -3,7 +3,7 @@
     "name": "Self 应用订阅",
     "author": "@shaolin-kongfu",
     "icon": "https://avatars.githubusercontent.com/u/87315404?s=400&v=4",
-    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "repo": "",
     "apps": [{
       "id": "jckd",
       "name": "晶彩看点",
@@ -77,18 +77,33 @@
       ]
     },
     {
-      "id": "jsz",
-      "name": "金银手指阅读",
+      "id": "cyqt",
+      "name": "成语大学士",
       "keys": 
-        ["jszhd","jszhd2","jszhd3","jszhd4","jszhd5"],
+        ["cyqthd","cyqtbody","cyqttxhd","cyqttxbody","cyqtspbody",
+         "cyqthd2","cyqtbody2","cyqttxhd2","cyqttxbody2","cyqtspbody2",
+         "cyqthd3","cyqtbody3","cyqttxhd3","cyqttxbody3","cyqtspbody3",
+         "cyqthd4","cyqtbody4","cyqttxhd4","cyqttxbody4","cyqtspbody4",
+         "cyqthd5","cyqtbody5","cyqttxhd5","cyqttxbody5","cyqtspbody5",
+         "cyqthd6","cyqtbody6","cyqttxhd6","cyqttxbody6","cyqtspbody6",
+         "cyqthd7","cyqtbody7","cyqttxhd7","cyqttxbody7","cyqtspbody7",
+         "cyqthd8","cyqtbody8","cyqttxhd8","cyqttxbody8","cyqtspbody8",
+         "cyqthd9","cyqtbody9","cyqttxhd9","cyqttxbody9","cyqtspbody9",
+         "cyqthd10","cyqtbody10","cyqttxhd10","cyqttxbody10","cyqtspbody10",
+         "cyqthd11","cyqtbody11","cyqttxhd11","cyqttxbody11","cyqtspbody11",
+         "cyqthd12","cyqtbody12","cyqttxhd12","cyqttxbody12","cyqtspbody12",
+         "cyqthd13","cyqtbody13","cyqttxhd13","cyqttxbody13","cyqtspbody13",
+         "cyqthd14","cyqtbody14","cyqttxhd14","cyqttxbody14","cyqtspbody14",
+         "cyqthd15","cyqtbody15","cyqttxhd15","cyqttxbody15","cyqtspbody15",
+        ],
       "settings": [{
-                        "id": "jszstatus",
+                        "id": "cyqtstatus",
                         "name": "当前账号",
                         "val": "1",
                         "type": "number",
                         "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
                     }, {
-                        "id": "jszcount",
+                        "id": "cyqtcount",
                         "name": "账号个数",
                         "val": "1",
                         "type": "number",
@@ -100,32 +115,6 @@
       "icons": [ 
         "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
         "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg"
-      ]
-    },
-    {
-      "id": "10sread",
-      "name": "10s阅读",
-      "keys": 
-        ["read10sck","read10sck2","read10sck3","read10sck4","read10sck5"],
-      "settings": [{
-                        "id": "10sreadstatus",
-                        "name": "当前账号",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
-                    }, {
-                        "id": "10sreadcount",
-                        "name": "账号个数",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                    }],
-  
-      "repo": "https://github.com/Wenmoux/monster.git", 
-      "script": "https://raw.githubusercontent.com/Wenmoux/monster/main/10sread/jrkuaixun.js", 
-      "icons": [ 
-        "",
-        ""
       ]
     }
    ]
