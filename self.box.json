@@ -1,14 +1,13 @@
 {
   "id": "self.app.sub",
-  "name": "CenBomin.Script",
+  "name": "app.Script",
   "author": "@cenbomin",
   "icon": "https://avatars0.githubusercontent.com/u/75375782?s=400&u=86eee41f7f138c5d0187aa10d2242bfc9799182e&v=4",
   "repo": "https://github.com/CenBoMin/GithubSync",
   "apps": [{
     "id": "txstockapp",
     "name": "自选羊毛股",
-    "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cash", "cashheader",
-	         "signheader2", "signkey2", "taskheader2", "taskkey2", "userheader2", "userkey2", "wxtaskkey2", "cash2", "cashheader2"],
+    "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cash", "cashheader", "signheader2", "signkey2", "taskheader2", "taskkey2", "userheader2", "userkey2", "wxtaskkey2", "cash2", "cashheader2"],
     "settings": [{
       "id": "cash",
       "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
